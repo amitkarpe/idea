@@ -19,6 +19,9 @@ It currently checks:
 1. markdown formatting with `markdownlint-cli2`
 2. GitHub Actions workflow syntax with `actionlint`
 
+Markdown checks are intentionally scoped to `README.md` and `docs/**/*.md`
+so the repo can keep a pragmatic `AGENTS.md` format during MVP setup.
+
 ## Why this setup
 
 This repo is still in MVP mode. These checks are lightweight, fast, and useful without needing extra credentials.
